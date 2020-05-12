@@ -184,22 +184,22 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #454d55;
-    border-color: #454d55;
+    background-color: #454d55!important;
+    border-color: #454d55!important;
 }
 
 .btn-primary:hover {
-    color: #fff;
-    background-color: #555f69;
-    border-color: #555f69;
+    color: #fff!important;
+    background-color: #555f69!important;
+    border-color: #555f69!important;
 }
 
 .btn-primary:focus {
-    box-shadow: 0 0 0 0;
+    box-shadow: 0 0 0 0!important;
 }
 
 .btn-primary:active {
-    color: #fff;
-    background-color: #555f69;
-    border-color: #555f69;
+    color: #fff!important;
+    background-color: #555f69!important;
+    border-color: #555f69!important;
 }
