@@ -89,6 +89,12 @@ p.lead {
     text-transform: uppercase
 }
 
+#sideNav .panel-heading {
+    font-weight: 800;
+    letter-spacing: .05rem;
+    text-transform: uppercase
+}
+
 #sideNav .navbar-toggler:focus {
     outline-color: #d48a6e
 }
@@ -175,4 +181,25 @@ a:active,
 a:focus,
 a:hover {
     color: #824027
+}
+
+.btn-primary {
+    background-color: #454d55;
+    border-color: #454d55;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #555f69;
+    border-color: #555f69;
+}
+
+.btn-primary:focus {
+    box-shadow: 0 0 0 0;
+}
+
+.btn-primary:active {
+    color: #fff;
+    background-color: #555f69;
+    border-color: #555f69;
 }
