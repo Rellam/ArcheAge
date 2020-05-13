@@ -801,10 +801,11 @@
                         <img src="img/tier2ErenorCloak.png" alt="Tier 2 Erenor Cloak" style="width: 942.4px; height: 404px" class="mb-3">
                         <p>
                             The method to obtain an erenor cloak has been changed. You will now awaken your ayanad cloak into an erenor cloak.<br> This will make it so all your stats are retained. The Low/High stat system has been removed, you can now
-                            only get the high values.<br> Additionally you can now awaken your erenor cloaks to an awakened erenor cloak.<br> This cloak comes with an additional synthesis stat (5 stats).<br>
+                            only get the high values.<br> Additionally you can now awaken your erenor cloaks to an awakened erenor cloak.<br> This cloak comes with an additional synthesis stat (5 stats: 1x Special stat + 4x Other stats).<br> The stat
+                            pool remains the same, but all archetype of cloaks have been merged.<br>(Ex. Erenor Windsong Cloak and Flaming Erenor Windsong Cloak -> Erenor Windsong Cloak. It can roll both defence penetration or critical damage).
                         </p>
                         <div style="display: flex; justify-content:flex-start;">
-                            <div class="card" style="width: 25rem">
+                            <div class="card" style="width: 25rem; margin-right: 10px;">
                                 <div class="card-body">
                                     <p class="card-title">
                                         <div style="position: relative;
@@ -873,6 +874,153 @@
                                 </div>
                             </div>
                         </div>
+                        <h4 id="specialisation" class="mt-5 mb-3">Equipment Specialisation</h4>
+                        <p>
+                            Equipment specialisation is a new mechanic that further enhances weapons and armor.<br> Specialisation can only be applied to items above a certain grade.<br> It is done through the consumption of synthesis experience, the
+                            amount of experience required depends on the equipment type and specialisation level.<br>
+                            <br>
+                        </p>
+                        <img src="img/specialisation.JPG" alt="" style="width: 400px; height:auto;" class="mb-3">
+                        <p>
+                            For weapons it will increase the amount of damage you deal/amount of healing you do versus certain armor types. (Ex. Bow does more bonus damage to cloth).<br> For armor it increases your resistance against the weapon counterpart.
+                            (Ex. Cloth receives less bonus damage from bows.)
+                            <table class="table table-dark text-md-center table-bordered mt-3" style="width: 60%">
+                                <thead>
+                                    <tr>
+                                        <th rowspan="2" style="vertical-align: middle;">Equipment</th>
+                                        <th colspan="2">Weapon</th>
+                                        <th colspan="2">Armor</th>
+                                    </tr>
+                                    <tr>
+                                        <th>Mythic</th>
+                                        <th>Eternal</th>
+                                        <th>Mythic</th>
+                                        <th>Eternal</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Sublime Hiram (Tier 5)</td>
+                                        <td>4</td>
+                                        <td>10</td>
+                                        <td>2</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Liberated Erenor (Tier 3)</td>
+                                        <td>4</td>
+                                        <td>10</td>
+                                        <td>2</td>
+                                        <td>5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Abyssal Library Gear (Tier 2)</td>
+                                        <td>-</td>
+                                        <td>4</td>
+                                        <td>-</td>
+                                        <td>2</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </p>
+                        <p>
+                            Not all gear can be specialised, only the following items can utilise this new system.<br> The specialisation level is also capped for certain items, this cap can be removed in the future, but for balance reasons they put this
+                            cap in place.
+                        </p>
+                        <table class="table table-dark text-md-center table-bordered mt-3" style="width: 60%">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2" style="vertical-align: middle;">Armor Type</th>
+                                    <th colspan="2">Weapon</th>
+                                    <th colspan="2">Armor</th>
+                                </tr>
+                                <tr>
+                                    <th>Mythic</th>
+                                    <th>Eternal</th>
+                                    <th>Mythic</th>
+                                    <th>Eternal</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Sublime Hiram (Tier 5)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Liberated Erenor (Tier 3)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Abyssal Library Gear (Tier 2)</td>
+                                    <td>-</td>
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Black Dragon</td>
+                                    <td>-</td>
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Vigilant Hermit (Leviathan)</td>
+                                    <td>-</td>
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Termisia (Charybdis)</td>
+                                    <td>-</td>
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Merciless God (Anthalon)</td>
+                                    <td>-</td>
+                                    <td>4</td>
+                                    <td>-</td>
+                                    <td>2</td>
+                                </tr>
+                                <tr>
+                                    <td>Furious Black Dragon (Tier 2)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Vigilant Hermit (Tier 2) (Leviathan)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Termisia (Tier 2) (Charybdis)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                                <tr>
+                                    <td>Merciless God (Tier 2) (Anthalon)</td>
+                                    <td>4</td>
+                                    <td>10</td>
+                                    <td>2</td>
+                                    <td>5</td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
                 </div>
             </div>
