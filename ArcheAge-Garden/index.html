@@ -108,7 +108,7 @@
 
                 <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5 ">
                     <div class="resume-content ">
-                        <h3 class="mb-0 ">New Area: Garden</h3>
+                        <h3 class="mb-0 " id="newAreaGarden">New Area: Garden</h3>
                         <h4 class="mt-2">Map</h4>
                         <img src="img/garden_map.jpg" alt="Garden Map">
                         <p class="mt-2">
@@ -117,9 +117,11 @@
                         </p>
                         <h4 class="mt-2">Location</h4>
                         <p class="mt-2">
-                            You enter the Garden by passing through the garden gates located in the "Navel of the World".
+                            You enter the Garden by passing through the garden gate located in the "Navel of the World".
                             </br>
-                            The road towards this location is found north-west of the Hall of Warriors, where you will find a gatekeeper who invites you to travel towards the Garden.
+                            The road towards this location is found north-west of the Hall of Warriors, where you will find a gatekeeper who invites you to travel towards the Garden.</br>
+                            After going through this gate you will teleport to the Gatekeeper's Hall. Upon entering for the first time you will unlock an entry for it in your teleport book.</br>
+                            Inside the Gatekeeper's Hall you will find 5 portals that teleport you to certain regions within the garden.
                         </p>
                         <h4 class="mt-2">Region</h4>
                         <p class="mt=2">
@@ -143,7 +145,8 @@
                         </table>
                         <h4 class="mt-2">Camps</h4>
                         <p class="mt-2">
-                            Inside the Garden there are 5 camps, each connected to the central Garden Gate.
+                            Inside the Garden there are 5 camps, each connected to the Gatekeeper's Hall. You travel to these from the Gatekeeper's Hall.</br>
+                            <i>The 'Queen Innis' portal is only unlocked after you complete the main story quest line up to a certain point (The start of Chapter 4).</i>
                         </p>
                         <img src="img/garden_camps.jpg" alt="Garden Camps" style="width: 565px; height: 350px; overflow: hidden;">
                         <div id="carouselExampleIndicators" class="carousel slide mt-2" data-ride="carousel" style="width: 565px; height: 350px; overflow: hidden;">
@@ -284,14 +287,15 @@
                             </div>
                         </div>
                         <div class="mt-5">
-                            <h4 class="mt-2">Daily Quest: Devotion of the Spirit</h4>
+                            <h4 class="mt-2">Daily Quest: Devotion to the Spirit</h4>
                             <p class="mt-2">
                                 <img src="img/garden_dailyquest.jpg" alt="Garden Daily Quest" style="width: 50%;">
                                 </br>
                                 </br> You can pick up the quest from the spirit at any of the four locations.</br>
                                 Scout the Garden to earn points through various activities.</br>
                                 The more points you collect, the higher your <b>ranking</b> will be.</br>
-                                The higher the ranking, the more rewards you gain from the quest.
+                                The higher the ranking, the more rewards you gain from the quest.</br>
+                                <i>This quest is a <b>daily</b>.</i>
                             </p>
                             <h5>How to gain points</h5>
                             <p style="color:darkred">
@@ -340,10 +344,35 @@
                                     <li>Monster kill points are awarded based on the amount of nearby party members (Up to 5 people).</li>
                                     <li>You do not receive any points over time if your rank is above 6.</li>
                                     <li>When you kill a boss monster, all participants receive 5000 points.</li>
-                                    <li>You can craft a buff to protected yourself from losing points when you die and it increases the amounts of points you get from monster kills by 50%</li>
+                                    <li>You can craft a <a href="#gardenQuestBuff">buff</a> to protected yourself from losing points when you die and it increases the amounts of points you get from monster kills by 50%.</li>
                                 </ul>
                             </p>
-                            <h5>Quest Rewards</h5>
+                            <h5 class="mt-2" id="gardenQuestBuff">Blessing of Spirits</h5>
+                            <p>
+                                A potion infused with the mysterious power of the spirit.</br>
+                                <b class="mt-2">Use Effect</b>
+                                <ul>
+                                    <li>Grants the elemental protection buff
+                                        <ul>
+                                            <li>Points gained from killing monsters is increased by 50%.</li>
+                                            <li>Your points are not decreased upon death.</li>
+                                        </ul>
+                                    </li>
+                                    <li>The buff lasts for 30 minutes.</li>
+                                    <li>Can only be used while the 'Devotion to the Spirit' quest is active.</li>
+                                </ul>
+                                <div>
+                                    <p>
+                                        <a class="btn btn-primary" data-toggle="collapse" href="#collapseBlessingOfSpirits" role="button" aria-expanded="false" aria-controls="collapseBlessingOfSpirits" style="width: 20%;">Crafting Recipe</a>
+                                    </p>
+                                    <div class="collapse" id="collapseBlessingOfSpirits">
+                                        <img src="img/garden_BlessingOfSpirits.JPG" alt="Blessing of Spirits Recipe">
+                                    </div>
+                                </div>
+
+                            </p>
+                            <h5 class="mt-2">Quest Rewards</h5>
+                            <p><i style="color: darkred;">You can not pick up the <b>daily</b> quest if you have any unopened reward boxes in your inventory/warehouse.</i></p>
                             <table class="table table-dark text-md-center table-bordered" style="width: 100%">
                                 <thead>
                                     <tr style="background-color: lightgray; color: black;">
@@ -483,8 +512,118 @@
                                     </tr>
                                 </tbody>
                             </table>
+                            <h4>New Plants/Organisms</h4>
+                            <p>
+                                There will be 3 new plants added in the Garden:
+                                <ul>
+                                    <li>Lily of the Valley</li>
+                                    <li>Petunia</li>
+                                    <li>White Peony</li>
+                                </ul>
+                                <i>These flowers will be used in new alchemy recipes.</i></br>
+                            </p>
+                            <p>
+                                There will be new fishes added in the Garden:
+                                <ul>
+                                    <li>Bluestone Fish</li>
+                                    <li>Needle Fish</li>
+                                    <li>Armoured Fish</li>
+                                    <li>Silver Shark</li>
+                                </ul>
+                                <i>You can process these fish into dawn lake essence or use them in the new cooking recipes.</i>
+                            </p>
+                            <h5>New Consumables</h5>
+                            <p>
+                                These items can be crafted at a new workbench within the Garden.
+                                <table class="table table-dark text-md-center table-bordered" style="width: 100%">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">Item name</th>
+                                            <th scope="col">Effect</th>
+                                            <th scope="col">Profiency</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Last Crafting (Improved Judge's Longing)</td>
+                                            <td>
+                                                Select one of the following 2 effects:
+                                                <ul style=" list-style: none; ">
+                                                    <li>Infinite Mercurial Movement: Increases Resilience by 720 and grants a chance to restore Health when attacked.</li>
+                                                    <li>Indomitable Concentration: Increases Toughness by 600 and grants a chance to restore Health when attacked.</li>
+                                                </ul>
+                                                <p style="color: lightblue; ">
+                                                    Only one of these effects can be activated at a time.<br> Lasts for 30 mins.
+                                                </p>
+                                            </td>
+                                            <td>-</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Small Healing Potion (Green)</td>
+                                            <td>
+                                                Restores 13% of Max Health instantly, and then 1.3% of Max Health every second for 10 seconds.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Small Mana Potion (Purple)</td>
+                                            <td>
+                                                Restores 13% of Max Mana instantly, and then 1.3% of Max Mana every second for 10 seconds.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Health Potion (Red)</td>
+                                            <td>
+                                                Restores 42% of Max Health instantly.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Mana Potion (Blue)</td>
+                                            <td>
+                                                Restores 42% of Max Mana instantly.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Sandwich</td>
+                                            <td>
+                                                Restores 50% of Max Health over 4 seconds.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <tr>
+                                            <td style="vertical-align: middle;">Rank 8 - Soup</td>
+                                            <td>
+                                                Restores 50% of Max Mana over 4 seconds.
+                                            </td>
+                                            <td>Alchemy</td>
+                                        </tr>
+                                        <td style="vertical-align: middle;">Blessing of Spirits</td>
+                                        <td>
+                                            <a href="#gardenQuestBuff" style="color: white;">See above</a>
+                                        </td>
+                                        <td>Alchemy</td>
+                                    </tbody>
+                                </table>
+                            </p>
+                            <h4 class="mt-5">Mechanics of the Garden</h4>
+                            <p>
+                                The garden is a unique place with several new and unique mechanics in the game.<br> Inside of the garden you will encounter hostile forces from all servers.<br> Each <b>faction</b> will be classified on their own. (Ex.
+                                Alexander-Nuia)
+                                <br><br> Three factions will be paired against each other per Garden Instance, every X amount of days these pairings will be changed.<br> All existing relationships between factions will not count within the Garden Instance.<br>                                Ex. "Alexander-Nuia", "Halnaak-Nuia", "Belstrom-Pirates" will be in the same Garden Instance but all 3 are hostile to each other.<br> Certain functions such as Guild, Family and Cash Shop will not be available within the
+                                Garden.
+                                <br><br> There are 4 Respawn bases (Nui's) that you can spawn at when you die, where you respawn is based on your location where you die.<br> These respawn bases are shared between all factions in the Garden, but you can
+                                quickly move between them by using the 'Resurrection Tree' in these bases.
+                            </p>
                         </div>
-
+                        <h3 id="newEquipment" class="mb-5">New Equipment</h3>
+                        <h4 id="hiram">Tier 5 Hiram: Sublime Hiram</h4>
+                        <p>
+                            <img src="img/tier5Hiram.jpg" alt="Tier 5 Hiram" class="mb-3"><br> Garden brings us another tier of hiram gear.<br> You can acquire this gear by awakening Tier 4 Hiram of <b>Mythic or higher grade</b>.<br> After awakening the
+                            item will remain the same grade it was before. (Mythic T4 -> Mythic T5 | Eternal T4-> Eternal T5)<br> As with all other awakenings, all your image items, lunagems, tempers, etc will remain intact.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -493,7 +632,7 @@
 
         <hr class="m-0 ">
 
-        <section class="resume-section p-3 p-lg-5 d-flex align-items-center " id="education">
+        <section class="resume-section p-3 p-lg-5 d-flex align-items-center " id="education ">
             <div class="w-100 ">
                 <h2 class="mb-5 ">Lorem ipsum dolor sit amet.</h2>
 
