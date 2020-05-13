@@ -192,7 +192,7 @@ a:hover {
 }
 
 .btn-primary {
-    background-color: #454d55!important;
+    background-color: darkcyan!important;
     border-color: #454d55!important;
 }
 
@@ -205,12 +205,12 @@ a:hover {
 .btn-primary:focus {
     box-shadow: 0 0 0 0!important;
     color: #fff!important;
-    background-color: #555f69!important;
+    background-color: darkcyan!important;
     border-color: #555f69!important;
 }
 
 .btn-primary:active {
     color: #fff!important;
-    background-color: #555f69!important;
+    background-color: darkcyan!important;
     border-color: #555f69!important;
 }
