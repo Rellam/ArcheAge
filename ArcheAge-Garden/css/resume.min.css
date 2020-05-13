@@ -85,8 +85,16 @@ p.lead {
 
 #sideNav .navbar-nav .nav-item .nav-link {
     font-weight: 800;
+    font-size: larger;
     letter-spacing: .05rem;
     text-transform: uppercase
+}
+
+#sideNav .subnav {
+    font-weight: 800;
+    font-size: smaller!important;
+    letter-spacing: .05rem;
+    text-transform: capitalize!important;
 }
 
 #sideNav .panel-heading {
@@ -112,7 +120,7 @@ p.lead {
     }
     #sideNav .navbar-brand {
         display: flex;
-        margin: auto auto 0;
+        margin: 10px 0;
         padding: .5rem
     }
     #sideNav .navbar-brand .img-profile {
